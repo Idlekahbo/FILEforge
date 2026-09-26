@@ -1,0 +1,2 @@
+Version: 1.12.1
+Arguments: ['C:\\hostedtoolcache\\windows\\Python\\3.10.11\\x64\\Scripts\\delvewheel', 'repair', '--add-path', 'd:\\qpdf\\bin', '-w', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-rtko_aql\\cp314-win_amd64\\repaired_wheel', 'C:\\Users\\runneradmin\\AppData\\Local\\Temp\\cibw-run-rtko_aql\\cp314-win_amd64\\built_wheel\\pikepdf-10.6.0-cp314-cp314-win_amd64.whl']

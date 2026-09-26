@@ -1,0 +1,24 @@
+{
+    "Background": "#242424",
+    "Foreground": "#343638",
+    "Font": {
+        "Colour":"#FFFFFF",
+        "Title": ["Righteous", 60],
+        "Subtitle": ["Roboto Black", 18],
+        "BigNormal": ["Roboto Regular", 18],
+        "Normal": ["Roboto Regular", 14]
+    },
+    "NavigationMenu": {
+        "HamburgerHover": "#454545",
+        "Colour": "#2B2B2B"
+    },
+    "DirAudit": {
+        "Title": "#3AA9FF",
+        "Normal":"#267FC4",
+        "InputPlaceholderTextColour":"#9e9e9e"
+    },
+    "PDFaTools": {
+        "Title": "#FF3A3A",
+        "Normal":"#C42626"
+    }
+}
