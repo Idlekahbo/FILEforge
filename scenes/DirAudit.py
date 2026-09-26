@@ -30,7 +30,7 @@ class DirAudit():
         save_dir = w.SaveDir(window, theme, settings, app, "C:\\Users")
         save_dir.place(x=10, y=230)
         # title | select properties
-        w.SubTitleText(window, 10, 280, "Select properties for file", theme, settings)
+        w.SubTitleText(window, 10, 280, "Select properties for file(s)", theme, settings)
         # radio | name
         name = w.SmallCheckButton(window, theme, settings, app, True)
         name.place(x=21, y=310)

@@ -1,0 +1,6 @@
+name: FILEforge CodeQL config
+
+paths-ignore:
+  - DirAuditProcess/**
+  - DirPDFaToolsProcess/**
+  - PDFaPDFaToolsProcess/**

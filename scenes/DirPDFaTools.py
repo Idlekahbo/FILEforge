@@ -12,7 +12,7 @@ class DirPDFaTools():
         get_dir = w.GetDir(window, theme, settings, app, "C:\\Users")
         get_dir.place(x=10, y=98)
         # title | select file properties for the file
-        w.SubTitleText(window, 10, 148, "Select properties for file", theme, settings)
+        w.SubTitleText(window, 10, 148, "Select properties for file(s)", theme, settings)
         # radio | include_subdirs
         include_subdirs = w.SmallCheckButton(window, theme, settings, app, True)
         include_subdirs.place(x=32, y=181)
