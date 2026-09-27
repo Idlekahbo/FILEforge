@@ -1,4 +1,4 @@
-import customtkinter as ctk, widgets as w, os
+import customtkinter as ctk, scenes.widgets as w, os
 from PIL import Image
 
 class DualColorTitleCardinall(ctk.CTkFrame):

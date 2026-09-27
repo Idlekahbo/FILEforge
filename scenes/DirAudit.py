@@ -1,4 +1,4 @@
-import customtkinter as ctk, widgets as w, os, subprocess, json
+import customtkinter as ctk, scenes.widgets as w, os, subprocess, json
 ctk.set_appearance_mode("dark")
 
 class DirAudit():

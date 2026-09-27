@@ -1,6 +1,6 @@
 import customtkinter as ctk, json, os, ctypes, sys
-from widgets.controlbuttons import Hamburger
-from widgets.submenus import NavigationMenu
+from scenes.widgets.controlbuttons import Hamburger
+from scenes.widgets.submenus import NavigationMenu
 from scenes import DirAudit, DirPDFaTools, FilePDFaTools
 
 if getattr(sys, "frozen", False): basepath = os.path.dirname(sys.executable)
