@@ -1,4 +1,4 @@
-import customtkinter as ctk, json, os, ctypes, sys
+import customtkinter as ctk, json, os, ctypes, sys, requests, server
 from scenes.widgets.controlbuttons import Hamburger
 from scenes.widgets.submenus import NavigationMenu
 from scenes import DirAudit, DirPDFaTools, FilePDFaTools
@@ -15,15 +15,8 @@ window.wm_iconbitmap(basepath + "\\images\\icons\\logo.ico")
 window.resizable(False, False)
 ctk.set_widget_scaling(settings["WindowScale"])
 ctk.set_window_scaling(settings["WindowScale"])
-DWMWA_SYSTEMBACKDROP_TYPE = 38
-DWMSBT_NONE = 1
 
-ctypes.windll.dwmapi.DwmSetWindowAttribute(
-    window.winfo_id(),
-    DWMWA_SYSTEMBACKDROP_TYPE,
-    ctypes.byref(ctypes.c_int(DWMSBT_NONE)),
-    ctypes.sizeof(ctypes.c_int)
-)
+if not server.check_key(settings["ProductKey"]): sys.exit()
 
 # content window
 content_window = ctk.CTkFrame(master=window, fg_color="transparent", bg_color="transparent", width=500, height=428)
